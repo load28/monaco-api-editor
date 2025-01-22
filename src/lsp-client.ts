@@ -32,7 +32,7 @@ const createLanguageClient = (
   return new MonacoLanguageClient({
     name: "Rust Language Client",
     clientOptions: {
-      documentSelector: ["rust"],
+      documentSelector: ["typescript", "rust"],
       errorHandler: {
         error: () => ({ action: ErrorAction.Continue }),
         closed: () => ({ action: CloseAction.DoNotRestart }),

@@ -50,18 +50,22 @@ async function initializeEditor() {
 
     monaco.editor.create(document.getElementById("editor")!, {
       value: "",
-      language: "rust",
+      language: "typescript",
       fontSize: 16,
       theme: "vs-dark",
+      // model: monaco.editor.createModel(
+      //   "",
+      //   "rust",
+      //   monaco.Uri.parse(
+      //     "file:///Users/seominyong/Downloads/source/my-monaco-api-editor/workspace/src/main.rs",
+      //   ), // 명시적인 파일 URI 지정
+      // ),
       model: monaco.editor.createModel(
-        "",
-        "rust",
-        monaco.Uri.parse(
-          "file:///Users/seominyong/Downloads/source/my-monaco-api-editor/workspace/src/main.rs",
-        ), // 명시적인 파일 URI 지정
+        "console.log()",
+        "typescript",
+        monaco.Uri.parse("file:///main.ts"),
       ),
     });
-    monaco.editor.setTheme("vs-dark");
 
     initWebSocketAndStartClient("ws://localhost:5008/");
   } catch (error) {

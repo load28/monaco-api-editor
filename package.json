@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@types/vscode": "^1.96.0",
-    "typescript": "~5.6.2",
+    "typescript": "^5.7.3",
     "vite": "^6.0.5"
   },
   "dependencies": {
@@ -27,6 +27,7 @@
     "monaco-editor": "npm:@codingame/monaco-vscode-editor-api",
     "monaco-languageclient": "^9.1.1",
     "prettier": "^3.4.2",
+    "typescript-language-server": "^4.3.3",
     "vscode": "npm:@codingame/monaco-vscode-api",
     "vscode-ws-jsonrpc": "^3.4.0",
     "ws": "^8.18.0"
