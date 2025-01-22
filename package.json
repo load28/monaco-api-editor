@@ -1,0 +1,34 @@
+{
+  "name": "my-monaco-api-editor",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.96.0",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.5"
+  },
+  "dependencies": {
+    "@codingame/esbuild-import-meta-url-plugin": "^1.0.2",
+    "@codingame/monaco-vscode-chat-extensions-notebook-task-terminal-testing-common": "^11.1.2",
+    "@codingame/monaco-vscode-languages-service-override": "^11.1.2",
+    "@codingame/monaco-vscode-python-default-extension": "^11.1.2",
+    "@codingame/monaco-vscode-rust-default-extension": "^11.1.2",
+    "@codingame/monaco-vscode-textmate-service-override": "^11.1.2",
+    "@codingame/monaco-vscode-theme-defaults-default-extension": "^11.1.2",
+    "@codingame/monaco-vscode-theme-service-override": "^11.1.2",
+    "@codingame/monaco-vscode-typescript-basics-default-extension": "^11.1.2",
+    "@types/ws": "^8.5.13",
+    "monaco-editor": "npm:@codingame/monaco-vscode-editor-api",
+    "monaco-languageclient": "^9.1.1",
+    "prettier": "^3.4.2",
+    "vscode": "npm:@codingame/monaco-vscode-api",
+    "vscode-ws-jsonrpc": "^3.4.0",
+    "ws": "^8.18.0"
+  }
+}
