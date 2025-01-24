@@ -30,6 +30,7 @@
     "typescript-language-server": "^4.3.3",
     "vscode": "npm:@codingame/monaco-vscode-api",
     "vscode-ws-jsonrpc": "^3.4.0",
+    "wonka": "^6.3.4",
     "ws": "^8.18.0"
   }
 }

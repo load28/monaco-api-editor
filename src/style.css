@@ -4,6 +4,6 @@ body {
 }
 
 #editor {
-  width: 720px;
+  width: 100vh;
   height: 70vh;
 }
